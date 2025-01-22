@@ -1,4 +1,4 @@
-# Projeto PionaPlus
+# Projeto FEARNOT+
 
 ## Requisitos
 
