@@ -1,0 +1,47 @@
+@import url(./sidebardropdown.css);
+
+.sidebar {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: -16rem;
+    height: 100vh;
+    width: 16rem;
+    z-index: 1000;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow: scroll;
+
+    transition: right .3s ease-in-out;
+}
+
+.sidebar.show {
+    right: 0px;
+  }
+
+.sidebar_link {
+    height: 4.5rem;
+    width: 100%;
+    transition: all .2s  ease-in-out;
+}
+
+.sidebar a:hover,
+.sidebar .non-link:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.sidebar .non-link:hover svg {
+    fill: var(--black);
+}
+
+@media (max-width: 400px) {
+    .sidebar {
+        right: -25rem;
+        width: 100%;
+    }
+}

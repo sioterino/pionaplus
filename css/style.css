@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: #81A5F9;
+    --secondary: #81A5F9;
+    --accent: #81A5F9;
+
+    --white: #FFF;
+    --black: #000;
+
+    --font-1: "Public Sans"
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-1), Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+main {
+    margin-bottom: 10rem;
+}

@@ -1,0 +1,120 @@
+[
+    {
+        "name": "FLAME RISES",
+        "pagePath": "./content/flamerises2023.html", 
+        "telegram": "https://t.me/+SI3WCjFdYvU3Mzcx",
+        "tags": ["concerto", "show", "ao vivo"],
+        "rating": "L",
+        "sub": false,
+        "year": "2023", 
+        "duration" : ["4 Episódios", "2h 30min"],
+        "posterPath": "../img/posters/flamerises.png",
+        "scenePath": "../../img/scenes/flamerises.jpg", 
+        "summary": [
+            "Em 2023, LE SSERAFIM embarcou em sua primeira turnê asiática intitulada \"FLAME RISES\". A turnê passou por várias cidades importantes, incluindo Seul, Tóquio, Bangkok e Hong Kong, demonstrando o crescimento meteórico do grupo na região.",
+            "Os shows foram marcados por apresentações enérgicas, visuais impressionantes e interação calorosa com os fãs. \"FLAME RISES\" consolidou o grupo como uma força crescente no cenário global do K-pop, deixando uma marca significativa por onde passou."
+        ],
+        "watch": [
+            {
+                "title": "Flame Rises In Seoul Day 1",
+                "posterPath": "../../img/flamerises-seoul.png",
+                "pagePath": "https://youtu.be/zPipEajgr5s"
+            },
+            {
+                "title": "Flame Rises In Seoul Day 2",
+                "posterPath": "../../img/flamerises-seoul.png",
+                "pagePath": "https://youtu.be/bfgVz22pGZg"
+            },
+            {
+                "title": "Flame Rises In Tokyo",
+                "posterPath": "../../img/flamerises-tokyo.png",
+                "pagePath": "https://youtu.be/XXsBF65hB9U"
+            },
+            {
+                "title": "Flame Rises In Osaka",
+                "posterPath": "../../img/flamerises-osaka.png",
+                "pagePath": "https://youtu.be/UFqaH5ehPiY"
+            }
+        ]
+    },
+    {
+        "name": "Coachella",
+        "pagePath": "./content/coachella.html", 
+        "telegram": "https://t.me/+SI3WCjFdYvU3Mzcx",
+        "tags": ["concerto", "show", "ao vivo", "festival"],
+        "rating": 10,
+        "sub": false,
+        "year": "2024", 
+        "duration" : ["2 Episódios","45m"],
+        "posterPath": "../img/posters/coachella.png",
+        "scenePath": "../../img/scenes/coachella.png",
+        "summary": [
+            "Em 2024, LE SSERAFIM estreou no icônico palco do Coachella, marcando um momento histórico em sua carreira. A performance foi uma explosão de energia e carisma, mostrando ao público global a essência ousada e inovadora do grupo. Com um setlist repleto de hits como \"ANTIFRAGILE\", \"FEARLESS\" e \"UNFORGIVEN\", as integrantes entregaram vocais poderosos, coreografias marcantes e presença de palco magnética.",
+            "Além dos sucessos já conhecidos, o grupo surpreendeu com uma apresentação especial de uma faixa inédita, feita especialmente para o evento, que misturava elementos de K-pop com influências da música ocidental. LE SSERAFIM não apenas conquistou o público do festival, mas também solidificou seu status como uma força global da música, provando que o espírito destemido de seu nome é refletido em cada performance."
+        ],
+        "watch": [
+            {
+                "title": "Coachella 2024 Week 1",
+                "posterPath": "../../img/coachella1.png",
+                "pagePath": "https://youtu.be/v9PNmvbh-Wg"
+            },
+            
+            {
+                "title": "Coachella 2024 Week 2",
+                "posterPath": "../../img/coachella2.png",
+                "pagePath": "https://youtu.be/NagfWmrC86Y"
+            }
+        ]
+    },
+    {
+        "name": "Weversecon 2024",
+        "pagePath": "./content/weversecon2024.html", 
+        "telegram": "https://t.me/+SI3WCjFdYvU3Mzcx",
+        "tags": ["concerto", "show", "ao vivo", "festival"],
+        "rating": "L",
+        "sub": false,
+        "year": "2024", 
+        "duration" : ["25m"],
+        "posterPath": "../img/posters/weversecon2024.png",
+        "scenePath": "../../img/scenes/weversecon2024.jpg",
+        "summary": [
+            "Durante Weverse Con Festival 2024, LE SSERAFIM entregou uma performance inesquecível, destacando sua evolução artística e o vínculo especial com seus fãs. O evento, que reúne artistas associados à plataforma Weverse, contou com um show enérgico e impecavelmente produzido pelo grupo, reafirmando seu status como uma das principais estrelas do K-pop. ",
+            "No palco, LE SSERAFIM apresentou uma seleção vibrante de suas músicas mais populares, como \"UNFORGIVEN\" e \"Eve, Psyche & The Bluebeard's Wife\", além de versões rearranjadas que trouxeram frescor às faixas queridas pelos fãs. Com interações cativante, o grupo também aproveitou para compartilhar mensagens sinceras de gratidão ao público, criando um momento íntimo em meio ao festival."
+        ],
+        "watch": [
+            {
+                "title": "Weversecon 2024",
+                "posterPath": "../../img/weversecon2024.jpg",
+                "pagePath": "https://youtu.be/yiLF4EeudvQ"
+            }
+        ]
+    },
+    {
+        "name": "Fearnada 2024",
+        "pagePath": "./content/fearnada2024.html", 
+        "telegram": "https://t.me/+SI3WCjFdYvU3Mzcx",
+        "tags": ["concerto", "show", "ao vivo", "fanmeeting"],
+        "rating": "L",
+        "sub": false,
+        "year": "2024", 
+        "duration" : ["2 Episódios","2h 23m"],
+        "posterPath": "../img/posters/fearnada2.png",
+        "scenePath": "../../img/scenes/fearnada2024-3.jpeg", 
+        "summary": [
+            "Em 2024, LE SSERAFIM realizou seu segundo fanmeeting oficial, intitulado \"FEARNADA S/S\", reafirmando sua conexão especial com os fãs. O evento, que aconteceu em grande estilo na Coreia do Sul e Japão, celebrou o crescimento contínuo do grupo e ofereceu uma experiência única e interativa.",
+            "Com performances exclusivas, conversas sinceras e atividades divertidas, o fanmeeting trouxe versões repaginadas de sucessos como \"FEARLESS\" e \"ANTIFRAGILE\", além de momentos emocionantes onde as integrantes compartilharam reflexões sobre sua jornada. \"FEARNADA S/S\" não só reforçou a relação entre o grupo e seus fãs, mas também destacou a criatividade e o carisma que tornaram LE SSERAFIM uma das sensações globais do K-pop." 
+        ],
+        "watch": [
+            {
+                "title": "Fearnada 2024 In Seoul Day 1",
+                "posterPath": "../../img/fearnada2024.png",
+                "pagePath": "https://youtu.be/GbjplXZF4fw"
+            },
+            {
+                "title": "Fearnada 2024 In Seoul Day 2",
+                "posterPath": "../../img/fearnada2024.png",
+                "pagePath": "https://youtu.be/0qZ3LqSpJkQ"
+            }
+        ]
+    }
+]

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link class="favicon" rel="icon" type="image/x-icon" href="../img/icons/pionaplus.png" />
+    <title>fearnot+</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/slide.css" />
+    <link rel="stylesheet" href="../css/browse.css" />
+    <link rel="stylesheet" href="../css/catalog.css" />
+    <script src="../js/header.js" defer></script>
+    <script src="../js/slides.js" defer></script>
+    <script src="../js/catalog.js" defer></script>
+    <script src="../js/filters.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <ul class="sidebar">
+        <span class="sidebar_link" onclick="toggleSidebar()">
+            <span class="non-link">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="2rem"
+                    viewBox="0 -960 960 960">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </span>
+        </span>
+        <span class="sidebar_link"><a href="../html/catalog.html">CATÁLOGO</a></span>
+        <span class="sidebar_link"><a href="../html/contact.html">CONTATO</a></span>
+        <div class="sidebar__dropdown sidebar_link">
+          <span class="sidebar_link"><span class="non-link about" onclick="showAbout()">SOBRE</span></span>
+          <ul class="dropdown__sidebar">
+            <li><a href="../html/about.html#site">FEARNOT+</a></li>
+            <li><a href="../html/about.html#group">LE SSERAFIM</a></li>
+            <li><a href="../html/about.html#company">SOURCE MUSIC</a></li>
+            <li><a href="../html/about.html#team">EQUIPE FEARNOT+</a></li>
+          </ul>
+        </div>
+      </ul>
+
+      <div class="nav">
+        <div class="nav_link"><a href="../html/catalog.html"><h1><b class="fearnot"> FEARNOT </b> +</h1></a></div>
+        <span class="hideOnMobile nav_link"><a href="../html/catalog.html">CATÁLOGO</a></span>
+        <div class="nav__dropdown nav_link">
+          <span class="hideOnMobile nav_link"><a class="about" href="../html/about.html">SOBRE</a></span>
+          <div class="dropdown__wrapper">
+            <ul class="dropdown__menu">
+                <li><a href="../html/about.html#site">FEARNOT+</a></li>
+                <li><a href="../html/about.html#group">LE SSERAFIM</a></li>
+                <li><a href="../html/about.html#company">SOURCE MUSIC</a></li>
+                <li><a href="../html/about.html#team">EQUIPE FEARNOT+</a></li>
+              </ul>
+          </div>
+        </div>
+        <span class="hideOnMobile nav_link"><a href="../html/contact.html">CONTATO</a></span>
+        <span class="showMenu nav_link" onclick="toggleSidebar()">
+            <span class="non-link">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="2rem"
+                    viewBox="0 -960 960 960">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </span>
+        </span>
+      </div>
+    </header>
+
+    
+    <section class="slide">
+        <div class="info">
+          <div class="play hideen"></div>
+            <h2 class="name slider"></h2>
+            <div class="summary"></div>
+            <div class="buttons">
+                <div class="watch">
+                    <a target="_blank" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M320-273v-414q0-17 12-28.5t28-11.5q5 0 10.5 1.5T381-721l326 207q9 6 13.5 15t4.5 19q0 10-4.5 19T707-446L381-239q-5 3-10.5 4.5T360-233q-16 0-28-11.5T320-273Z"/></svg>
+                        <p href="">Assistir</p>
+                    </a>
+                </div>
+                <div class="more">
+                    <a target="_blank" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M480-280q17 0 28.5-11.5T520-320v-160q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480v160q0 17 11.5 28.5T480-280Zm0-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/></svg>
+                        <p>Mais Informações</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rating">
+            <img src="../img/icons/L.svg" alt="">
+        </div>
+        <div class="gradient"></div>
+    </section>
+
+    <main class="main">
+      <section class="browse">
+        <div class="browseHeader">
+          <h2 class="title">Catálogo Completo</h2>
+        </div>
+
+        <div class="article-filters">
+          <article class="filters">
+            <div class="dropdown">
+              <div class="face hidden fade-left" id="category">
+                <p class="name">Categotia</p>
+                <svg
+                  id="caret"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#FFFFFF"
+                >
+                  <path
+                    d="M459-381 314-526q-3-3-4.5-6.5T308-540q0-8 5.5-14t14.5-6h304q9 0 14.5 6t5.5 14q0 2-6 14L501-381q-5 5-10 7t-11 2q-6 0-11-2t-10-7Z"
+                  />
+                </svg>
+              </div>
+              <ul class="selection hidden fade-out" id="catOptions">
+                <li class="optCat" id="all">Tudo</li>
+                <li class="optCat" id="concerts">Show</li>
+                <li class="optCat" id="fanmeetings">Fanmeeting</li>
+                <li class="optCat" id="festivals">Festival</li>
+              </ul>
+            </div>
+
+            <svg
+              class="icon"
+              id="filteron"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#FFFFFF"
+            >
+              <path
+                d="M440-240q-17 0-28.5-11.5T400-280q0-17 11.5-28.5T440-320h80q17 0 28.5 11.5T560-280q0 17-11.5 28.5T520-240h-80ZM280-440q-17 0-28.5-11.5T240-480q0-17 11.5-28.5T280-520h400q17 0 28.5 11.5T720-480q0 17-11.5 28.5T680-440H280ZM160-640q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"
+              />
+            </svg>
+            <svg
+              class="icon hidden on"
+              id="filteroff"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#FFFFFF"
+            >
+              <path
+                d="M763-84 83-763q-12-12-12-28.5T83-820q12-12 28.5-12t28.5 12l680 680q12 12 12 28t-12 28q-12 12-28.5 12T763-84ZM650-440q-17 0-29-11.5T609-480q0-16 11.5-28t29.5-12h30q17 0 28.5 11.5T720-480q0 17-11.5 28.5T680-440h-30ZM450-640q-17 0-29-11.5T409-680q0-16 11.5-28t29.5-12h350q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H450Zm-10 400q-17 0-28.5-11.5T400-280q0-17 11.5-28.5T440-320h80q17 0 28.5 11.5T560-280q0 17-11.5 28.5T520-240h-80ZM280-440q-17 0-28.5-11.5T240-480q0-17 11.5-28.5T280-520h126v80H280ZM160-640q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h46v80h-46Z"
+              />
+            </svg>
+          </article>
+
+          <article class="searchbar">
+            <input
+              class="hidden fade-left"
+              id="searchbar"
+              type="text"
+              placeholder="Pesquisar"
+              autocomplete="off"
+            />
+            <svg
+              class="icon"
+              id="search"
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#FFFFFF"
+            >
+              <path
+                d="M380-320q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l224 224q11 11 11 28t-11 28q-11 11-28 11t-28-11L532-372q-30 24-69 38t-83 14Zm0-80q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+              />
+            </svg>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog"></section>
+    </main>
+
+    <template class="option-template">
+      <div class="option">
+        <a class="page-path" href=""><div class="poster"></div></a>
+        <h2 class="title"></h2>
+      </div>
+    </template>
+  </body>
+</html>

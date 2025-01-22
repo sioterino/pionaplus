@@ -1,0 +1,21 @@
+.dropdown__sidebar a {
+    background-color: rgba(16, 0, 94, 0.13)
+}
+
+.dropdown__sidebar {
+    list-style: none;
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+
+    transition: opacity .2s ease-in-out;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.show {
+    display: block;
+}

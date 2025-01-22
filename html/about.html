@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="favicon" rel="icon" type="image/x-icon" href="../img/icons/pionaplus.png" />
+    <title>fearnot+</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/header.js" defer></script>
+    <style>
+        main {
+            margin-top: 7rem;
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="sidebar">
+          <span class="sidebar_link" onclick="toggleSidebar()">
+              <span class="non-link">
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="2rem"
+                      viewBox="0 -960 960 960">
+                      <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                  </svg>
+              </span>
+          </span>
+          <span class="sidebar_link"><a href="../html/catalog.html">CATÁLOGO</a></span>
+          <span class="sidebar_link"><a href="../html/contact.html">CONTATO</a></span>
+          <div class="sidebar__dropdown sidebar_link">
+            <span class="sidebar_link"><span class="non-link about" onclick="showAbout()">SOBRE</span></span>
+            <ul class="dropdown__sidebar">
+              <li><a href="../html/about.html#site">FEARNOT+</a></li>
+              <li><a href="../html/about.html#group">LE SSERAFIM</a></li>
+              <li><a href="../html/about.html#company">SOURCE MUSIC</a></li>
+              <li><a href="../html/about.html#team">EQUIPE FEARNOT+</a></li>
+            </ul>
+          </div>
+        </ul>
+  
+        <div class="nav">
+          <div class="nav_link"><a href="../html/catalog.html"><h1><b class="fearnot"> FEARNOT </b> +</h1></a></div>
+          <span class="hideOnMobile nav_link"><a href="../html/catalog.html">CATÁLOGO</a></span>
+          <div class="nav__dropdown nav_link">
+            <span class="hideOnMobile nav_link"><a class="about" href="../html/about.html">SOBRE</a></span>
+            <div class="dropdown__wrapper">
+              <ul class="dropdown__menu">
+                  <li><a href="../html/about.html#site">FEARNOT+</a></li>
+                  <li><a href="../html/about.html#group">LE SSERAFIM</a></li>
+                  <li><a href="../html/about.html#company">SOURCE MUSIC</a></li>
+                  <li><a href="../html/about.html#team">EQUIPE FEARNOT+</a></li>
+                </ul>
+            </div>
+          </div>
+          <span class="hideOnMobile nav_link"><a href="../html/contact.html">CONTATO</a></span>
+          <span class="showMenu nav_link" onclick="toggleSidebar()">
+              <span class="non-link">
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="2rem"
+                      viewBox="0 -960 960 960">
+                      <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                  </svg>
+              </span>
+          </span>
+        </div>
+      </header>
+
+      <main>
+        <secttion>
+            <h2 id="us">FEARNOT+</h2>
+            <div class="site">
+            </div>
+        </secttion>
+
+        <secttion>
+            <h2 id="group">LE SSERAFIM</h2>
+            <div class="site">
+                <p><strong>LE SSERAFIM</strong> é um grupo feminino formado em <em>2 de maio de 2022</em> pela SOURCE MUSIC, uma gravadora sob o selo da HYBE, composto por cinco integrantes de diferentes nacionalidades: <a href="">SAKURA</a>, <a href="">KIM CHAEWON</a>, <a href="">HUH YUNJIN</a>, <a href="">KAZUHA</a> e <a href="">HONG EUNCHAE</a>.</p>
+                <p>O primeiro grupo feminino a ser lançado através de uma colaboração entre a HYBE e a SOURCE MUSIC, elas assumem uma postura ousada e afirmam desde o início que ocuparão o topo. O nome do grupo, <strong>LE SSERAFIM</strong>, é um anagrama das palavras <em>"I’M FEARLESS"</em> (Sou destemida). </p>
+                <p>O nome reflete a <em>autoconfiança</em> e a <em>determinação</em> de ferro do grupo ao enfrentarem o mundo <em>sem medo e sem vacilar perante os olhos atentos do público</em>. É como um encantamento para garantir seu sucesso com base em sua postura inabalável e força.</p>
+            
+            </div>
+        </secttion>
+
+        <secttion>
+            <h2 id="company">SOURCE MUSIC</h2>
+        </secttion>
+
+        <secttion>
+            <h2 id="team">EQUIPE FEARNOT+</h2>
+        </secttion>
+
+      </main>
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "THE WORLD IS MY OYSTER",
+        "slidePath": ["../img/gif/twimo/1-1.gif",  "../img/gif/twimo/1-2.gif", "../img/gif/twimo/1-3.gif", "../img/gif/twimo/1-4.gif", "../img/gif/twimo/1-5.gif"],
+        "posterPath": ["../img/gif/twimo/1-1.png",  "../img/gif/twimo/1-2.png", "../img/gif/twimo/1-3.png", "../img/gif/twimo/1-4.png", "../img/gif/twimo/1-5.png"],
+        "summary": [
+            "O mundo é imperfeito, eu não consigo ficar satisfeita com ele, com mundo somos somente julgados. O mundo coloca pra fora minhas imperfeições e ele me fez perder minha essência. Mas e se isso tudo me tornasse mais forte? Eu quero assumir o desafio. Eu não tenho medo de mais nada, sou destemida.",
+            "O mundo é meu."
+        ],
+        "watchPath": "https://www.youtube.com/watch?v=Qr6HmcxI2s0&pp=ygUSbGVzc2VyYWZpbSB0cmFpbGVy", 
+        "seeMore": "https://www.sourcemusic.com/artist/discography/LE%20SSERAFIM/8",
+        "rating": "L"
+    },
+    {
+        "id": 2,
+        "name": "THE HYDRA",
+        "slidePath": ["../img/gif/thehydra/2-1.gif",  "../img/gif/thehydra/2-2.gif", "../img/gif/thehydra/2-3.gif", "../img/gif/thehydra/2-4.gif", "../img/gif/thehydra/2-5.gif"],
+        "posterPath": ["../img/gif/thehydra/2-1.png",  "../img/gif/thehydra/2-2.png", "../img/gif/thehydra/2-3.png", "../img/gif/thehydra/2-4.png", "../img/gif/thehydra/2-5.png"],
+        "summary": [
+            "Você acha que eu sou frágil? Me corte, tente me quebrar. Você acha que eu sou má? Então me faça cair, tente me queimar. Me jogue no Mar Negro, de novo e de novo. Eu sou antifrágil. Renasço, dançando enquanto caio. Não esconda seus erros e falhas.",
+            "Eu não tenho medo de tempestades, já que ainda estou aprendendo a navegar meu navio."
+        ],
+        "watchPath": "https://www.youtube.com/watch?v=lqvbB4kFxq4&pp=ygUSbGVzc2VyYWZpbSB0cmFpbGVy", 
+        "seeMore": "https://www.sourcemusic.com/artist/discography/LE%20SSERAFIM/9",
+        "rating": "L"
+    },
+    {
+        "id": 3,
+        "name": "BURN THE BRIDGE",
+        "slidePath": ["../img/gif/burnthebridge/3-1.gif",  "../img/gif/burnthebridge/3-2.gif", "../img/gif/burnthebridge/3-3.gif", "../img/gif/burnthebridge/3-4.gif", "../img/gif/burnthebridge/3-5.gif"],
+        "posterPath": ["../img/gif/burnthebridge/3-1.png",  "../img/gif/burnthebridge/3-2.png", "../img/gif/burnthebridge/3-3.png", "../img/gif/burnthebridge/3-4.png", "../img/gif/burnthebridge/3-5.png"],
+        "summary": [
+            "Junto a mim que abre a porta, está você que tem a mesma chama que eu. E eu digo-lhe: vamos além juntos, àquela distante terra de faíscas comigo. Aponta para o mesmo lugar, nosso valor. Eu nunca irei voltar atrás. Queime a ponte! Queime tudo! Olhe mais de perto, vamos queimar tudo e iluminaremos nosso caminho. Nós não temos que ser perdoadas.",
+            "Nós somos imperdoáveis."
+        ],
+        "watchPath": "https://www.youtube.com/watch?v=1cLsiCi8Sbc&pp=ygUSbGVzc2VyYWZpbSB0cmFpbGVy", 
+        "seeMore": "https://www.sourcemusic.com/artist/discography/LE%20SSERAFIM/10",
+        "rating": 10
+    },
+    {
+        "id": 4,
+        "name": "GOOD BONES",
+        "slidePath": ["../img/gif/goodbones/4-1.gif",  "../img/gif/goodbones/4-2.gif", "../img/gif/goodbones/4-3.gif", "../img/gif/goodbones/4-4.gif"],
+        "posterPath": ["../img/gif/goodbones/4-1.png",  "../img/gif/goodbones/4-2.png", "../img/gif/goodbones/4-3.png", "../img/gif/goodbones/4-4.png"],
+        "summary": [
+            "Eu sofro muito, não é assim com você? Eu me esforço sem parar, luto sem parar, fazendo minhas próprias ondas. Vou fazer um pequeno mar. Quando as coisas não estiverem fáceis, eu vou facilitá-las. Eu acredito em você que segurou minha mão, vou continuar acreditando que mesmo no mal há beleza.",
+            "Vendo a verdade, não se confunda achando que eu fiz tudo isso facilmente. Porque eu fiz parecer fácil."
+        ],
+        "watchPath": "https://www.youtube.com/watch?v=WKVBAwHqyEk&pp=ygUSbGVzc2VyYWZpbSB0cmFpbGVy", 
+        "seeMore": "https://www.sourcemusic.com/artist/discography/LE%20SSERAFIM/12",
+        "rating": "L"
+    },
+    {
+        "id": 5,
+        "name": "CHASING LIGHTNING",
+        "slidePath": ["../img/gif/chasinglightning/5-1.gif",  "../img/gif/chasinglightning/5-2.gif", "../img/gif/chasinglightning/5-3.gif", "../img/gif/chasinglightning/5-4.gif", "../img/gif/chasinglightning/5-5.gif", "../img/gif/chasinglightning/5-6.gif"],
+        "posterPath": ["../img/gif/chasinglightning/5-1.png",  "../img/gif/chasinglightning/5-2.png", "../img/gif/chasinglightning/5-3.png", "../img/gif/chasinglightning/5-4.png", "../img/gif/chasinglightning/5-5.png", "../img/gif/chasinglightning/5-6.png"],
+        "summary": [
+            "Se você não consegue parar de pensar nisso, faça agora mesmo. Siga o que sente, ser honesta consigo mesma é o que nos define, não é? Não importa onde esteja, não hesite e pule, porque você pode sentir que está viva.",
+            "Nós podemos dançar sob os relâmpagos."
+        ],
+        "watchPath": "https://www.youtube.com/watch?v=1cLsiCi8Sbc&pp=ygUSbGVzc2VyYWZpbSB0cmFpbGVy", 
+        "seeMore": "https://www.sourcemusic.com/artist/discography/LE%20SSERAFIM/14",
+        "rating": "L"
+    }
+]

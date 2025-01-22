@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link class="favicon" rel="icon" type="image/x-icon" href="../../img/icons/pionaplus.png" />
+    <title>fearnot+</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/content.css" />
+
+    <script src="../../js/header.js" defer></script>
+    <script src="../../js/content/flamerises2023.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <ul class="sidebar">
+        <span class="sidebar_link" onclick="toggleSidebar()">
+            <span class="non-link">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="2rem"
+                    viewBox="0 -960 960 960">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </span>
+        </span>
+        <span class="sidebar_link"><a href="../catalog.html">CATÁLOGO</a></span>
+        <span class="sidebar_link"><a href="../contact.html">CONTATO</a></span>
+        <div class="sidebar__dropdown sidebar_link">
+          <span class="sidebar_link"><span class="non-link about" onclick="showAbout()">SOBRE</span></span>
+          <ul class="dropdown__sidebar">
+            <li><a href="../about.html#site">FEARNOT+</a></li>
+            <li><a href="../about.html#group">LE SSERAFIM</a></li>
+            <li><a href="../about.html#company">SOURCE MUSIC</a></li>
+            <li><a href="../about.html#team">EQUIPE FEARNOT+</a></li>
+          </ul>
+        </div>
+      </ul>
+
+      <div class="nav">
+        <div class="nav_link"><a href="../catalog.html"><h1><b class="fearnot"> FEARNOT </b> +</h1></a></div>
+        <span class="hideOnMobile nav_link"><a href="../catalog.html">CATÁLOGO</a></span>
+        <div class="nav__dropdown nav_link">
+          <span class="hideOnMobile nav_link"><a class="about" href="../about.html">SOBRE</a></span>
+          <div class="dropdown__wrapper">
+            <ul class="dropdown__menu">
+                <li><a href="../about.html#site">FEARNOT+</a></li>
+                <li><a href="../about.html#group">LE SSERAFIM</a></li>
+                <li><a href="../about.html#company">SOURCE MUSIC</a></li>
+                <li><a href="../about.html#team">EQUIPE FEARNOT+</a></li>
+              </ul>
+          </div>
+        </div>
+        <span class="hideOnMobile nav_link"><a href="../contact.html">CONTATO</a></span>
+        <span class="showMenu nav_link" onclick="toggleSidebar()">
+            <span class="non-link">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="2rem"
+                    viewBox="0 -960 960 960">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </span>
+        </span>
+      </div>
+    </header>
+
+    <main>
+      <div class="scene">
+        <section class="upper">
+            <div class="table"><div class="tags watcher"></div></div>
+            <h2 class="page-title"></h2>
+            <div class="classifications">
+              <img class="rating" src="" height="16px"/>
+              <div class="svg-conteiner"></div>
+              <p class="year"></p>
+              <p>•</p>
+              <p class="duration"></p>
+            </div>
+            <div class="summary"></div>
+            <div class="buttons">
+                <a class="a-watch" target="_blank" href="">
+                    <div class="watch">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M320-273v-414q0-17 12-28.5t28-11.5q5 0 10.5 1.5T381-721l326 207q9 6 13.5 15t4.5 19q0 10-4.5 19T707-446L381-239q-5 3-10.5 4.5T360-233q-16 0-28-11.5T320-273Z"/></svg>
+                        <p href="">Assistir</p>
+                    </div>
+                  </a>
+                <a class="a-more" target="_blank" href="">
+                  <div class="more">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M176-183q-20 8-38-3.5T120-220v-180l320-80-320-80v-180q0-22 18-33.5t38-3.5l616 260q25 11 25 37t-25 37L176-183Z"/></svg>
+                  </div>
+                </a>
+            </div>
+          </section>
+      </div>
+
+      <section class="bottom">
+        <h3 class="section-title">Assistir Outros</h3>
+        <div class="catalog"></div>
+      </section>
+    </main>
+
+    <template class="card-template">
+        <div class="card">
+            <a target="_blank" class="video-redirect" href="#">
+                <div class="video">
+                    <div class="gradient"></div>
+                    <div class="play-btn"></div>
+                </div>
+            </a>
+            <a target="_blank" class="video-redirect" href=""><h4 class="name"></h4></a>
+        </div>
+    </template>
+  </body>
+</html>

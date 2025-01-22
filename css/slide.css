@@ -1,0 +1,163 @@
+.slide {
+    position: relative;
+    height: 80vh;
+    transition: all .3s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+.slide.play {
+    background-image: url();
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent, black);
+}
+
+.slide .info {
+    position: absolute;
+    z-index: 2;
+    color: var(--white);
+    top: 30%;
+    margin-inline: 10vw 50vw;
+}
+
+.slide .name {
+    font-size: 3rem;
+    text-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+.slide .summary p {
+    text-shadow: 0px 0px 0.3rem rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.watch a,
+.more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    padding: .4rem 1rem .4rem .7rem;
+    height: 2.5rem;
+}
+
+.watch a {
+    padding-left: .5rem;
+    background-color: var(--white);
+    transition: all .2s ease-in-out;
+}
+
+.watch p,
+.watch svg {
+    color: var(--black);
+    fill: var(--black);
+    transition: all .2s ease-in-out;
+}
+
+.watch a:hover {
+    background-color: var(--accent);
+}
+
+.watch a:hover p,
+.watch a:hover svg {
+    color: var(--white);
+    fill: var(--white);
+}
+
+.more a {
+    gap: .5rem;
+    transition: all .2s ease-in-out;
+}
+
+.more a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.more a:active {
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.rating {
+    position: absolute;
+    right: 0px;
+    top: 63%;
+    z-index: 2;
+}
+
+.rating img {
+    height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 0px 5rem 0px 1rem;
+    border-left: 3px solid var(--white);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+
+@media (max-width: 1200px) {
+    .slide .info {
+        margin-inline: 10vw 30vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .slide .info {
+        margin-inline: 10vw 10vw;
+    }
+    .rating img {
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .rating {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .slide .name {
+        font-size: 1.5rem;
+    }
+    .slide .summary,
+    .buttons p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .buttons .watch,
+    .buttons .more {
+        flex-grow: 1;
+    }
+    .buttons {
+        margin-inline: 10vw;
+    }
+}

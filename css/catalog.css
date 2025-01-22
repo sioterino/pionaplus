@@ -1,0 +1,47 @@
+@import url(./style.css);
+
+.main {
+    z-index: 1;
+    padding: 0px min(5rem, 8%);
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.catalog .poster {
+    height: 320px;
+    width: 180px;;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.catalog .option,
+.catalog .poster {
+    border-radius: .25rem;
+    transition: all .3s ease-in-out;
+}
+
+.catalog .poster:hover {
+    transform: scale(103%);
+    cursor: pointer;
+}
+
+.catalog .option:hover {
+    transform: translateY(-.8rem);
+    cursor: pointer;
+}
+
+.catalog h2 {
+    margin-top: .8rem;
+    color: var(--white);
+    font-size: 1rem;
+    text-align: center;
+}
